@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BookList } from './BookList';
-import BookListClass from './BookListClass';
+import App from './App.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <BookList />
-    <BookListClass />
+    <App />
   </div>    
 );
 
